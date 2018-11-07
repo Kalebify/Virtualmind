@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Insert row in a table</title>
+</head>
+
+<body>
+    <script>
+        var cont = 0;
+        function insert_Row() {
+            cont ++;
+                var row = document.getElementById('sampleTable').insertRow(0);
+                var colunm1 = row.insertCell(0);
+                var colunm2 = row.insertCell(1);
+                colunm1.innerHTML = "New Cell"+cont;
+                colunm2.innerHTML = "New Cell"+ (cont+1);
+            }
+        
+    </script>
+    <table id="sampleTable" border="1">
+        <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+        </tr>
+        <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+        </tr>
+    </table><br>
+    <input type="button" onclick="insert_Row()" value="Insert row">
+</body>
+
+</html>

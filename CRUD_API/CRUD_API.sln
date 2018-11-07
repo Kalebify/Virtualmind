@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_API", "CRUD_API\CRUD_API.csproj", "{0DA4BEC5-D8CE-4F51-8F78-028B1FA3D4C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioWeb2", "ServicioWeb2\ServicioWeb2.csproj", "{980F4156-607F-4C0C-AFAC-A3A46ABA21EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA4BEC5-D8CE-4F51-8F78-028B1FA3D4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA4BEC5-D8CE-4F51-8F78-028B1FA3D4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA4BEC5-D8CE-4F51-8F78-028B1FA3D4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA4BEC5-D8CE-4F51-8F78-028B1FA3D4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980F4156-607F-4C0C-AFAC-A3A46ABA21EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980F4156-607F-4C0C-AFAC-A3A46ABA21EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980F4156-607F-4C0C-AFAC-A3A46ABA21EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980F4156-607F-4C0C-AFAC-A3A46ABA21EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

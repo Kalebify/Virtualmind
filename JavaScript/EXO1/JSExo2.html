@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Activate debugging with F12</h2>
+
+<p>Select "Console" in the debugger menu.</p>
+<script>
+
+
+    function MultiplyBy(x) {
+            return function (y) {
+                return function (z) {
+                    return x * y * z;
+                }
+            }
+        }
+
+   
+console.log(MultiplyBy(2)(3)(4));// Result 24
+console.log(MultiplyBy(4)(3)(4)) // Result 48
+
+</script>
+
+</body>
+</html>

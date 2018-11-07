@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <script>
+        var paises = new Array;
+        
+        function llenarLista() {
+            var longest = 0;
+            var word = null;
+            for (var i = 0; i < paises.length ; i++) {
+                if (longest < paises[i].length) {
+                    longest = paises[i].length;
+                    word = paises[i];
+                }
+            }
+
+            console.log(word.toString());
+           // document.getElementById("largo").value=word;
+            alert("The longuest country is  : " + word);
+            }
+
+           function insertar() {
+                var valor= document.getElementById("contenido").value;
+                paises.push(valor);
+                Vaciar();
+            }
+            function Vaciar() {
+                document.getElementById("contenido").value="";     
+            }
+
+
+    </script>
+    <ul id="pincipal"></ul>
+    <input type="text" id="contenido">
+    <button id="insertar"  onclick="insertar();" >Input</button>
+    <button id="Lista" onclick="llenarLista();">Show</button>
+    <label id="largo"></label>
+  
+</body>
+
+</html>
